@@ -1,0 +1,58 @@
+# ========================
+# Node.js
+# ========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ========================
+# Build & Output
+# ========================
+dist/
+build/
+.tmp/
+.temp/
+
+# ========================
+# Environment Variables
+# ========================
+.env
+.env.*          # Para múltiples entornos (ej: .env.production)
+!.env.example   # Archivo ejemplo con estructura de variables
+
+# ========================
+# Logs
+# ========================
+logs
+*.log
+*.log.*
+log.txt
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# IDEs & Editors
+# ========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ========================
+# Cache
+# ========================
+.cache/
+.tern-port
+.eslintcache
