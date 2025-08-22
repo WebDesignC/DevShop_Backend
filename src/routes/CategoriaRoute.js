@@ -1,16 +1,16 @@
 const express = require('express')
 const route = express.Router()
+const categoriaController = require('../controllers/CategoriaController');
+const validate = require('../middleware/validate');
+const categoriaSchema = require('../validators/categoriaValidator')
 // const categoria =require('../models/Categoria')
 
-route.get('/categoria',()=>{
+route.get('/categoria',categoriaController.list);
 
-})
-route.post('/categoria/:id',()=>{
+route.get('/categoria/:id',categoriaController.getById);
 
-})
-route.put('/categoria/:id',()=>{
+route.post('/categoria',validate(categoriaSchema),categoriaController.create);
 
-})
-route.delete('/categoria/:id',()=>{
+route.put('/categoria/:id', validate(categoriaSchema), categoriaController.update);
 
-})
+route.delete('/categoria/:id',categoriaController.remove);
