@@ -1,0 +1,23 @@
+[
+  {
+    "nombre": "Tecnología",
+    "slug": "tecnologia",
+    "activa": true
+  },
+  {
+    "nombre": "Decoración y Hogar",
+    "slug": "decoracion-y-hogar",
+    "activa": true
+  },
+  {
+    "nombre": "Ropa y Accesorios",
+    "slug": "ropa-y-accesorios",
+    "activa": true
+  },
+  {
+    "nombre": "Deportes",
+    "slug": "deportes",
+    "activa": true
+  }
+]
+  
