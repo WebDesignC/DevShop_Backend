@@ -6,7 +6,7 @@
     "precio": 699.99,
     "id_categoria": "68aa2d340d86e565c2af20af",
     "categoria": "Tecnología",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988752/Smartphone_Alpha_X_bynvo1.jpg"
   },
   {
     "id": "p-tec-02",
@@ -15,7 +15,7 @@
     "precio": 129.99,
     "id_categoria": "68aa2d340d86e565c2af20af",
     "categoria": "Tecnología",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988757/Auriculares_Wireless_Pro_xzdowl.jpg"
   },
   {
     "id": "p-tec-03",
@@ -24,7 +24,7 @@
     "precio": 249.99,
     "id_categoria": "68aa2d340d86e565c2af20af",
     "categoria": "Tecnología",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988765/Tablet_Slim_10_sgpnv9.jpg"
   },
   {
     "id": "p-tec-04",
@@ -33,7 +33,7 @@
     "precio": 149.99,
     "id_categoria": "68aa2d340d86e565c2af20af",
     "categoria": "Tecnología",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988771/Smartwatch_Fit_3_guyt4n.jpg"
   },
   {
     "id": "p-tec-05",
@@ -42,7 +42,7 @@
     "precio": 199.99,
     "id_categoria": "68aa2d340d86e565c2af20af",
     "categoria": "Tecnología",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988777/C%C3%A1mara_Action_4K_din5ck.jpg"
   },
   {
     "id": "p-tec-06",
@@ -51,7 +51,7 @@
     "precio": 1199.99,
     "id_categoria": "68aa2d340d86e565c2af20af",
     "categoria": "Tecnología",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988784/Torre_Gaming_RTX_gujobx.jpg"
   },
   {
     "id": "p-tec-07",
@@ -60,7 +60,7 @@
     "precio": 279.99,
     "id_categoria": "68aa2d340d86e565c2af20af",
     "categoria": "Tecnología",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988982/Monitor_27_eqoppo.jpg"
   },
   {
     "id": "p-tec-08",
@@ -69,7 +69,7 @@
     "precio": 99.99,
     "id_categoria": "68aa2d340d86e565c2af20af",
     "categoria": "Tecnología",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988984/Router_WiFi_6_f6mlha.jpg"
   },
   {
     "id": "p-tec-09",
@@ -78,7 +78,7 @@
     "precio": 119.99,
     "id_categoria": "68aa2d340d86e565c2af20af",
     "categoria": "Tecnología",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988985/Disco_SSD_1TB_ofh7ag.jpg"
   },
   {
     "id": "p-tec-10",
@@ -87,7 +87,7 @@
     "precio": 39.99,
     "id_categoria": "68aa2d340d86e565c2af20af",
     "categoria": "Tecnología",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988986/Power_Bank_20000mAh_tbxlmz.jpg"
   },
   {
     "id": "p-hog-01",
@@ -96,7 +96,7 @@
     "precio": 279.99,
     "id_categoria": "68aa2d3f0d86e565c2af20b0",
     "categoria": "Decoración y Hogar",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988987/Aspiradora_Robot_Smart_goaq0n.jpg"
   },
   {
     "id": "p-hog-02",
@@ -105,7 +105,7 @@
     "precio": 49.99,
     "id_categoria": "68aa2d3f0d86e565c2af20b0",
     "categoria": "Decoración y Hogar",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988988/L%C3%A1mpara_LED_Minimal_nalpkc.jpg"
   },
   {
     "id": "p-hog-03",
@@ -114,7 +114,7 @@
     "precio": 59.99,
     "id_categoria": "68aa2d3f0d86e565c2af20b0",
     "categoria": "Decoración y Hogar",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988989/Juego_de_S%C3%A1banas_200_Hilos_ndjoy9.jpg"
   },
   {
     "id": "p-hog-04",
@@ -123,7 +123,7 @@
     "precio": 69.99,
     "id_categoria": "68aa2d3f0d86e565c2af20b0",
     "categoria": "Decoración y Hogar",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988990/Set_de_utensilios_cocina_uo8hne.jpg"
   },
   {
     "id": "p-hog-05",
@@ -132,7 +132,7 @@
     "precio": 129.99,
     "id_categoria": "68aa2d3f0d86e565c2af20b0",
     "categoria": "Decoración y Hogar",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988991/Cafetera_Espresso_Compact_iplryo.jpg"
   },
   {
     "id": "p-hog-06",
@@ -141,7 +141,7 @@
     "precio": 89.99,
     "id_categoria": "68aa2d3f0d86e565c2af20b0",
     "categoria": "Decoración y Hogar",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988962/Alfombra_Moderna_160x230_eq3g2g.jpg"
   },
   {
     "id": "p-hog-07",
@@ -150,7 +150,7 @@
     "precio": 39.99,
     "id_categoria": "68aa2d3f0d86e565c2af20b0",
     "categoria": "Decoración y Hogar",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988962/Juego_de_toallas_premium_wzm4ik.jpg"
   },
   {
     "id": "p-hog-08",
@@ -159,7 +159,7 @@
     "precio": 24.99,
     "id_categoria": "68aa2d3f0d86e565c2af20b0",
     "categoria": "Decoración y Hogar",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988963/Organizador_de_armario_ukjmqn.jpg"
   },
   {
     "id": "p-hog-09",
@@ -168,7 +168,7 @@
     "precio": 19.99,
     "id_categoria": "68aa2d3f0d86e565c2af20b0",
     "categoria": "Decoración y Hogar",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988964/Set_de_velas_arom%C3%A1ticas_d8mhf9.jpg"
   },
   {
     "id": "p-hog-10",
@@ -177,7 +177,7 @@
     "precio": 22.99,
     "id_categoria": "68aa2d3f0d86e565c2af20b0",
     "categoria": "Decoración y Hogar",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988964/Coj%C3%ADn_decorativo_45x45_tffmmn.jpg"
   },
   {
     "id": "p-rop-01",
@@ -186,7 +186,7 @@
     "precio": 24.99,
     "id_categoria": "68aa2d4a0d86e565c2af20b1",
     "categoria": "Ropa y Accesorios",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988965/Camiseta_Sport_Run_qfuyar.jpg"
   },
   {
     "id": "p-rop-02",
@@ -195,7 +195,7 @@
     "precio": 49.99,
     "id_categoria": "68aa2d4a0d86e565c2af20b1",
     "categoria": "Ropa y Accesorios",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988966/Jeans_Classic_Fit_wctnlo.jpg"
   },
   {
     "id": "p-rop-03",
@@ -204,7 +204,7 @@
     "precio": 39.99,
     "id_categoria": "68aa2d4a0d86e565c2af20b1",
     "categoria": "Ropa y Accesorios",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988967/Sudadera_Hoodie_Urban_tydr78.jpg"
   },
   {
     "id": "p-rop-04",
@@ -213,7 +213,7 @@
     "precio": 89.99,
     "id_categoria": "68aa2d4a0d86e565c2af20b1",
     "categoria": "Ropa y Accesorios",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988968/Reloj_Casual_fdjbn0.jpg"
   },
   {
     "id": "p-rop-05",
@@ -222,7 +222,7 @@
     "precio": 14.99,
     "id_categoria": "68aa2d4a0d86e565c2af20b1",
     "categoria": "Ropa y Accesorios",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988968/Gorra_Trucker_impoks.jpg"
   },
   {
     "id": "p-rop-06",
@@ -231,7 +231,7 @@
     "precio": 59.99,
     "id_categoria": "68aa2d4a0d86e565c2af20b1",
     "categoria": "Ropa y Accesorios",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988969/Bolso_Bandolera_svdxr9.jpg"
   },
   {
     "id": "p-rop-07",
@@ -240,7 +240,7 @@
     "precio": 12.99,
     "id_categoria": "68aa2d4a0d86e565c2af20b1",
     "categoria": "Ropa y Accesorios",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988970/Calcetines_t%C3%A9cnicos_3-pack_xvkvln.jpg"
   },
   {
     "id": "p-rop-08",
@@ -249,7 +249,7 @@
     "precio": 99.99,
     "id_categoria": "68aa2d4a0d86e565c2af20b1",
     "categoria": "Ropa y Accesorios",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988971/Chaqueta_Impermeable_jpdf3d.jpg"
   },
   {
     "id": "p-rop-09",
@@ -258,7 +258,7 @@
     "precio": 29.99,
     "id_categoria": "68aa2d4a0d86e565c2af20b1",
     "categoria": "Ropa y Accesorios",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988972/Cintur%C3%B3n_de_cuero_illomp.jpg"
   },
   {
     "id": "p-rop-10",
@@ -267,7 +267,7 @@
     "precio": 44.99,
     "id_categoria": "68aa2d4a0d86e565c2af20b1",
     "categoria": "Ropa y Accesorios",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988973/Bolsa_de_gimnasio_havmfw.jpg"
   },
   {
     "id": "p-dep-01",
@@ -276,7 +276,7 @@
     "precio": 129.99,
     "id_categoria": "68aa2d520d86e565c2af20b2",
     "categoria": "Deportes",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988974/Zapatillas_Running_Pro_y31a5n.jpg"
   },
   {
     "id": "p-dep-02",
@@ -285,7 +285,7 @@
     "precio": 199.99,
     "id_categoria": "68aa2d520d86e565c2af20b2",
     "categoria": "Deportes",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988974/Mancuernas_Ajustables_tdmmoz.jpg"
   },
   {
     "id": "p-dep-03",
@@ -294,7 +294,7 @@
     "precio": 34.99,
     "id_categoria": "68aa2d520d86e565c2af20b2",
     "categoria": "Deportes",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988975/Esterilla_Yoga_Premium_y5qlh4.jpg"
   },
   {
     "id": "p-dep-04",
@@ -303,7 +303,7 @@
     "precio": 499.99,
     "id_categoria": "68aa2d520d86e565c2af20b2",
     "categoria": "Deportes",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988976/Bicicleta_Indoor_hekgyz.jpg"
   },
   {
     "id": "p-dep-05",
@@ -312,7 +312,7 @@
     "precio": 29.99,
     "id_categoria": "68aa2d520d86e565c2af20b2",
     "categoria": "Deportes",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988977/Bal%C3%B3n_F%C3%BAtbol_Oficial_vdcxms.jpg"
   },
   {
     "id": "p-dep-06",
@@ -321,7 +321,7 @@
     "precio": 49.99,
     "id_categoria": "68aa2d520d86e565c2af20b2",
     "categoria": "Deportes",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988978/Guantes_de_Boxeo_dkpz0s.jpg"
   },
   {
     "id": "p-dep-07",
@@ -330,7 +330,7 @@
     "precio": 19.99,
     "id_categoria": "68aa2d520d86e565c2af20b2",
     "categoria": "Deportes",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988979/Set_Bandas_El%C3%A1sticas_hidwsa.jpg"
   },
   {
     "id": "p-dep-08",
@@ -339,7 +339,7 @@
     "precio": 12.99,
     "id_categoria": "68aa2d520d86e565c2af20b2",
     "categoria": "Deportes",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988980/Cuerda_de_Saltar_Speed_b2slme.jpg"
   },
   {
     "id": "p-dep-09",
@@ -348,7 +348,7 @@
     "precio": 59.99,
     "id_categoria": "68aa2d520d86e565c2af20b2",
     "categoria": "Deportes",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988981/Monitor_de_Actividad_fcz4ni.jpg"
   },
   {
     "id": "p-dep-10",
@@ -357,7 +357,7 @@
     "precio": 24.99,
     "id_categoria": "68aa2d520d86e565c2af20b2",
     "categoria": "Deportes",
-    "imagen": ""
+    "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988982/Botella_T%C3%A9rmica_1L_lq5z4l.jpg"
   }
 ]
   
