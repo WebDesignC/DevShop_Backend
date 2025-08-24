@@ -1,0 +1,283 @@
+[
+  {
+    "nombre": "Smartphone Alpha X",
+    "descripcion": "Pantalla OLED 6.5\", 128GB, cámara triple 50MP",
+    "precio": 699.99,
+    "categoria": "68aa2d340d86e565c2af20af",
+    "imagen": ""
+  },
+  {
+    "nombre": "Auriculares Wireless Pro",
+    "descripcion": "Cancelación activa de ruido, 30h batería",
+    "precio": 129.99,
+    "categoria": "68aa2d340d86e565c2af20af",
+    "imagen": ""
+  },
+  {
+    "nombre": "Tablet Slim 10\"",
+    "descripcion": "Procesador quad-core, 4GB RAM, 64GB almacenamiento",
+    "precio": 249.99,
+    "categoria": "68aa2d340d86e565c2af20af",
+    "imagen": ""
+  },
+  {
+    "nombre": "Smartwatch Fit 3",
+    "descripcion": "Monitor cardiaco, GPS integrado, 7 días de batería",
+    "precio": 149.99,
+    "categoria": "68aa2d340d86e565c2af20af",
+    "imagen": ""
+  },
+  {
+    "nombre": "Cámara Action 4K",
+    "descripcion": "4K@60fps, estabilización óptica, resistente al agua",
+    "precio": 199.99,
+    "categoria": "68aa2d340d86e565c2af20af",
+    "imagen": ""
+  },
+  {
+    "nombre": "Torre Gaming RTX",
+    "descripcion": "GPU dedicada, 16GB RAM, SSD 512GB",
+    "precio": 1199.99,
+    "categoria": "68aa2d340d86e565c2af20af",
+    "imagen": ""
+  },
+  {
+    "nombre": "Monitor 27\" 144Hz",
+    "descripcion": "144Hz, 1ms, panel IPS",
+    "precio": 279.99,
+    "categoria": "68aa2d340d86e565c2af20af",
+    "imagen": ""
+  },
+  {
+    "nombre": "Router WiFi 6",
+    "descripcion": "Cobertura amplia, MU-MIMO y WPA3",
+    "precio": 99.99,
+    "categoria": "68aa2d340d86e565c2af20af",
+    "imagen": ""
+  },
+  {
+    "nombre": "Disco SSD 1TB",
+    "descripcion": "NVMe, alta velocidad de lectura/escritura",
+    "precio": 119.99,
+    "categoria": "68aa2d340d86e565c2af20af",
+    "imagen": ""
+  },
+  {
+    "nombre": "Power Bank 20000mAh",
+    "descripcion": "Carga rápida, 2 puertos USB-C/USB-A",
+    "precio": 39.99,
+    "categoria": "68aa2d340d86e565c2af20af",
+    "imagen": ""
+  },
+  {
+    "nombre": "Aspiradora Robot Smart",
+    "descripcion": "Navegación LiDAR, app y programable",
+    "precio": 279.99,
+    "categoria": "68aa2d3f0d86e565c2af20b0",
+    "imagen": ""
+  },
+  {
+    "nombre": "Lámpara LED Minimal",
+    "descripcion": "Dimmable, control táctil y USB",
+    "precio": 49.99,
+    "categoria": "68aa2d3f0d86e565c2af20b0",
+    "imagen": ""
+  },
+  {
+    "nombre": "Juego de Sábanas 200 Hilos",
+    "descripcion": "Algodón 100%, 2 plazas",
+    "precio": 59.99,
+    "categoria": "68aa2d3f0d86e565c2af20b0",
+    "imagen": ""
+  },
+  {
+    "nombre": "Set de utensilios cocina",
+    "descripcion": "7 piezas antiadherente",
+    "precio": 69.99,
+    "categoria": "68aa2d3f0d86e565c2af20b0",
+    "imagen": ""
+  },
+  {
+    "nombre": "Cafetera Espresso Compact",
+    "descripcion": "20 bar, porta-filtro y vapor",
+    "precio": 129.99,
+    "categoria": "68aa2d3f0d86e565c2af20b0",
+    "imagen": ""
+  },
+  {
+    "nombre": "Alfombra Moderna 160x230",
+    "descripcion": "Fibra sintética, fácil limpieza",
+    "precio": 89.99,
+    "categoria": "68aa2d3f0d86e565c2af20b0",
+    "imagen": ""
+  },
+  {
+    "nombre": "Juego de toallas premium",
+    "descripcion": "Algodón absorbente, 4 piezas",
+    "precio": 39.99,
+    "categoria": "68aa2d3f0d86e565c2af20b0",
+    "imagen": ""
+  },
+  {
+    "nombre": "Organizador de armario",
+    "descripcion": "Estantes plegables y resistentes",
+    "precio": 24.99,
+    "categoria": "68aa2d3f0d86e565c2af20b0",
+    "imagen": ""
+  },
+  {
+    "nombre": "Set de velas aromáticas",
+    "descripcion": "Pack 6 aromas relajantes",
+    "precio": 19.99,
+    "categoria": "68aa2d3f0d86e565c2af20b0",
+    "imagen": ""
+  },
+  {
+    "nombre": "Cojín decorativo 45x45",
+    "descripcion": "Funda lavable, diseño moderno",
+    "precio": 22.99,
+    "categoria": "68aa2d3f0d86e565c2af20b0",
+    "imagen": ""
+  },
+  {
+    "nombre": "Camiseta Sport Run",
+    "descripcion": "Microfibra transpirable, corte atlético",
+    "precio": 24.99,
+    "categoria": "68aa2d4a0d86e565c2af20b1",
+    "imagen": ""
+  },
+  {
+    "nombre": "Jeans Classic Fit",
+    "descripcion": "Denim premium, corte cómodo",
+    "precio": 49.99,
+    "categoria": "68aa2d4a0d86e565c2af20b1",
+    "imagen": ""
+  },
+  {
+    "nombre": "Sudadera Hoodie Urban",
+    "descripcion": "Algodón peinado, capucha ajustable",
+    "precio": 39.99,
+    "categoria": "68aa2d4a0d86e565c2af20b1",
+    "imagen": ""
+  },
+  {
+    "nombre": "Reloj Casual",
+    "descripcion": "Correa de cuero, resistente al agua",
+    "precio": 89.99,
+    "categoria": "68aa2d4a0d86e565c2af20b1",
+    "imagen": ""
+  },
+  {
+    "nombre": "Gorra Trucker",
+    "descripcion": "Visera curva, diseño clásico",
+    "precio": 14.99,
+    "categoria": "68aa2d4a0d86e565c2af20b1",
+    "imagen": ""
+  },
+  {
+    "nombre": "Bolso Bandolera",
+    "descripcion": "Compartimentos múltiples y cierre seguro",
+    "precio": 59.99,
+    "categoria": "68aa2d4a0d86e565c2af20b1",
+    "imagen": ""
+  },
+  {
+    "nombre": "Calcetines técnicos (3-pack)",
+    "descripcion": "Absorción y soporte plantar",
+    "precio": 12.99,
+    "categoria": "68aa2d4a0d86e565c2af20b1",
+    "imagen": ""
+  },
+  {
+    "nombre": "Chaqueta Impermeable",
+    "descripcion": "Corte slim, respirable",
+    "precio": 99.99,
+    "categoria": "68aa2d4a0d86e565c2af20b1",
+    "imagen": ""
+  },
+  {
+    "nombre": "Cinturón de cuero",
+    "descripcion": "Hebilla metálica y acabado premium",
+    "precio": 29.99,
+    "categoria": "68aa2d4a0d86e565c2af20b1",
+    "imagen": ""
+  },
+  {
+    "nombre": "Bolsa de gimnasio",
+    "descripcion": "Compartimento para zapatos y ropa húmeda",
+    "precio": 44.99,
+    "categoria": "68aa2d4a0d86e565c2af20b1",
+    "imagen": ""
+  },
+  {
+    "nombre": "Zapatillas Running Pro",
+    "descripcion": "Amortiguación reactiva, suela antideslizante",
+    "precio": 129.99,
+    "categoria": "68aa2d520d86e565c2af20b2",
+    "imagen": ""
+  },
+  {
+    "nombre": "Mancuernas Ajustables",
+    "descripcion": "5-25kg, diseño compacto",
+    "precio": 199.99,
+    "categoria": "68aa2d520d86e565c2af20b2",
+    "imagen": ""
+  },
+  {
+    "nombre": "Esterilla Yoga Premium",
+    "descripcion": "Antideslizante y extra acolchada",
+    "precio": 34.99,
+    "categoria": "68aa2d520d86e565c2af20b2",
+    "imagen": ""
+  },
+  {
+    "nombre": "Bicicleta Indoor",
+    "descripcion": "Resistencia magnética, pantalla LCD",
+    "precio": 499.99,
+    "categoria": "68aa2d520d86e565c2af20b2",
+    "imagen": ""
+  },
+  {
+    "nombre": "Balón Fútbol Oficial",
+    "descripcion": "Tamaño 5, cosido a máquina",
+    "precio": 29.99,
+    "categoria": "68aa2d520d86e565c2af20b2",
+    "imagen": ""
+  },
+  {
+    "nombre": "Guantes de Boxeo",
+    "descripcion": "Material sintético resistente, 14oz",
+    "precio": 49.99,
+    "categoria": "68aa2d520d86e565c2af20b2",
+    "imagen": ""
+  },
+  {
+    "nombre": "Set Bandas Elásticas",
+    "descripcion": "5 niveles de resistencia para entrenamiento",
+    "precio": 19.99,
+    "categoria": "68aa2d520d86e565c2af20b2",
+    "imagen": ""
+  },
+  {
+    "nombre": "Cuerda de Saltar Speed",
+    "descripcion": "Ajustable y con rodamientos",
+    "precio": 12.99,
+    "categoria": "68aa2d520d86e565c2af20b2",
+    "imagen": ""
+  },
+  {
+    "nombre": "Monitor de Actividad",
+    "descripcion": "Pasos, sueño y calorías",
+    "precio": 59.99,
+    "categoria": "68aa2d520d86e565c2af20b2",
+    "imagen": ""
+  },
+  {
+    "nombre": "Botella Térmica 1L",
+    "descripcion": "Acero inoxidable, mantiene temperatura",
+    "precio": 24.99,
+    "categoria": "68aa2d520d86e565c2af20b2",
+    "imagen": ""
+  }
+]
+  
