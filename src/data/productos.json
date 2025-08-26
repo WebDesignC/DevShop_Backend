@@ -1,362 +1,282 @@
 [
   {
-    "id": "p-tec-01",
     "nombre": "Smartphone Alpha X",
     "descripcion": "Pantalla OLED 6.5\", 128GB, cámara triple 50MP",
     "precio": 699.99,
-    "id_categoria": "68aa2d340d86e565c2af20af",
-    "categoria": "Tecnología",
+    "categoria": "68aa2d340d86e565c2af20af",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988752/Smartphone_Alpha_X_bynvo1.jpg"
   },
   {
-    "id": "p-tec-02",
     "nombre": "Auriculares Wireless Pro",
     "descripcion": "Cancelación activa de ruido, 30h batería",
     "precio": 129.99,
-    "id_categoria": "68aa2d340d86e565c2af20af",
-    "categoria": "Tecnología",
+    "categoria": "68aa2d340d86e565c2af20af",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988757/Auriculares_Wireless_Pro_xzdowl.jpg"
   },
   {
-    "id": "p-tec-03",
     "nombre": "Tablet Slim 10\"",
     "descripcion": "Procesador quad-core, 4GB RAM, 64GB almacenamiento",
     "precio": 249.99,
-    "id_categoria": "68aa2d340d86e565c2af20af",
-    "categoria": "Tecnología",
+    "categoria": "68aa2d340d86e565c2af20af",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988765/Tablet_Slim_10_sgpnv9.jpg"
   },
   {
-    "id": "p-tec-04",
     "nombre": "Smartwatch Fit 3",
     "descripcion": "Monitor cardiaco, GPS integrado, 7 días de batería",
     "precio": 149.99,
-    "id_categoria": "68aa2d340d86e565c2af20af",
-    "categoria": "Tecnología",
+    "categoria": "68aa2d340d86e565c2af20af",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988771/Smartwatch_Fit_3_guyt4n.jpg"
   },
   {
-    "id": "p-tec-05",
     "nombre": "Cámara Action 4K",
     "descripcion": "4K@60fps, estabilización óptica, resistente al agua",
     "precio": 199.99,
-    "id_categoria": "68aa2d340d86e565c2af20af",
-    "categoria": "Tecnología",
+    "categoria": "68aa2d340d86e565c2af20af",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988777/C%C3%A1mara_Action_4K_din5ck.jpg"
   },
   {
-    "id": "p-tec-06",
     "nombre": "Torre Gaming RTX",
     "descripcion": "GPU dedicada, 16GB RAM, SSD 512GB",
     "precio": 1199.99,
-    "id_categoria": "68aa2d340d86e565c2af20af",
-    "categoria": "Tecnología",
+    "categoria": "68aa2d340d86e565c2af20af",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988784/Torre_Gaming_RTX_gujobx.jpg"
   },
   {
-    "id": "p-tec-07",
     "nombre": "Monitor 27\" 144Hz",
     "descripcion": "144Hz, 1ms, panel IPS",
     "precio": 279.99,
-    "id_categoria": "68aa2d340d86e565c2af20af",
-    "categoria": "Tecnología",
+    "categoria": "68aa2d340d86e565c2af20af",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988982/Monitor_27_eqoppo.jpg"
   },
   {
-    "id": "p-tec-08",
     "nombre": "Router WiFi 6",
     "descripcion": "Cobertura amplia, MU-MIMO y WPA3",
     "precio": 99.99,
-    "id_categoria": "68aa2d340d86e565c2af20af",
-    "categoria": "Tecnología",
+    "categoria": "68aa2d340d86e565c2af20af",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988984/Router_WiFi_6_f6mlha.jpg"
   },
   {
-    "id": "p-tec-09",
     "nombre": "Disco SSD 1TB",
     "descripcion": "NVMe, alta velocidad de lectura/escritura",
     "precio": 119.99,
-    "id_categoria": "68aa2d340d86e565c2af20af",
-    "categoria": "Tecnología",
+    "categoria": "68aa2d340d86e565c2af20af",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988985/Disco_SSD_1TB_ofh7ag.jpg"
   },
   {
-    "id": "p-tec-10",
     "nombre": "Power Bank 20000mAh",
     "descripcion": "Carga rápida, 2 puertos USB-C/USB-A",
     "precio": 39.99,
-    "id_categoria": "68aa2d340d86e565c2af20af",
-    "categoria": "Tecnología",
+    "categoria": "68aa2d340d86e565c2af20af",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988986/Power_Bank_20000mAh_tbxlmz.jpg"
   },
   {
-    "id": "p-hog-01",
     "nombre": "Aspiradora Robot Smart",
     "descripcion": "Navegación LiDAR, app y programable",
     "precio": 279.99,
-    "id_categoria": "68aa2d3f0d86e565c2af20b0",
-    "categoria": "Decoración y Hogar",
+    "categoria": "68aa2d3f0d86e565c2af20b0",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988987/Aspiradora_Robot_Smart_goaq0n.jpg"
   },
   {
-    "id": "p-hog-02",
     "nombre": "Lámpara LED Minimal",
     "descripcion": "Dimmable, control táctil y USB",
     "precio": 49.99,
-    "id_categoria": "68aa2d3f0d86e565c2af20b0",
-    "categoria": "Decoración y Hogar",
+    "categoria": "68aa2d3f0d86e565c2af20b0",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988988/L%C3%A1mpara_LED_Minimal_nalpkc.jpg"
   },
   {
-    "id": "p-hog-03",
     "nombre": "Juego de Sábanas 200 Hilos",
     "descripcion": "Algodón 100%, 2 plazas",
     "precio": 59.99,
-    "id_categoria": "68aa2d3f0d86e565c2af20b0",
-    "categoria": "Decoración y Hogar",
+    "categoria": "68aa2d3f0d86e565c2af20b0",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988989/Juego_de_S%C3%A1banas_200_Hilos_ndjoy9.jpg"
   },
   {
-    "id": "p-hog-04",
     "nombre": "Set de utensilios cocina",
     "descripcion": "7 piezas antiadherente",
     "precio": 69.99,
-    "id_categoria": "68aa2d3f0d86e565c2af20b0",
-    "categoria": "Decoración y Hogar",
+    "categoria": "68aa2d3f0d86e565c2af20b0",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988990/Set_de_utensilios_cocina_uo8hne.jpg"
   },
   {
-    "id": "p-hog-05",
     "nombre": "Cafetera Espresso Compact",
     "descripcion": "20 bar, porta-filtro y vapor",
     "precio": 129.99,
-    "id_categoria": "68aa2d3f0d86e565c2af20b0",
-    "categoria": "Decoración y Hogar",
+    "categoria": "68aa2d3f0d86e565c2af20b0",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988991/Cafetera_Espresso_Compact_iplryo.jpg"
   },
   {
-    "id": "p-hog-06",
     "nombre": "Alfombra Moderna 160x230",
     "descripcion": "Fibra sintética, fácil limpieza",
     "precio": 89.99,
-    "id_categoria": "68aa2d3f0d86e565c2af20b0",
-    "categoria": "Decoración y Hogar",
+    "categoria": "68aa2d3f0d86e565c2af20b0",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988962/Alfombra_Moderna_160x230_eq3g2g.jpg"
   },
   {
-    "id": "p-hog-07",
     "nombre": "Juego de toallas premium",
     "descripcion": "Algodón absorbente, 4 piezas",
     "precio": 39.99,
-    "id_categoria": "68aa2d3f0d86e565c2af20b0",
-    "categoria": "Decoración y Hogar",
+    "categoria": "68aa2d3f0d86e565c2af20b0",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988962/Juego_de_toallas_premium_wzm4ik.jpg"
   },
   {
-    "id": "p-hog-08",
     "nombre": "Organizador de armario",
     "descripcion": "Estantes plegables y resistentes",
     "precio": 24.99,
-    "id_categoria": "68aa2d3f0d86e565c2af20b0",
-    "categoria": "Decoración y Hogar",
+    "categoria": "68aa2d3f0d86e565c2af20b0",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988963/Organizador_de_armario_ukjmqn.jpg"
   },
   {
-    "id": "p-hog-09",
     "nombre": "Set de velas aromáticas",
     "descripcion": "Pack 6 aromas relajantes",
     "precio": 19.99,
-    "id_categoria": "68aa2d3f0d86e565c2af20b0",
-    "categoria": "Decoración y Hogar",
+    "categoria": "68aa2d3f0d86e565c2af20b0",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988964/Set_de_velas_arom%C3%A1ticas_d8mhf9.jpg"
   },
   {
-    "id": "p-hog-10",
     "nombre": "Cojín decorativo 45x45",
     "descripcion": "Funda lavable, diseño moderno",
     "precio": 22.99,
-    "id_categoria": "68aa2d3f0d86e565c2af20b0",
-    "categoria": "Decoración y Hogar",
+    "categoria": "68aa2d3f0d86e565c2af20b0",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988964/Coj%C3%ADn_decorativo_45x45_tffmmn.jpg"
   },
   {
-    "id": "p-rop-01",
     "nombre": "Camiseta Sport Run",
     "descripcion": "Microfibra transpirable, corte atlético",
     "precio": 24.99,
-    "id_categoria": "68aa2d4a0d86e565c2af20b1",
-    "categoria": "Ropa y Accesorios",
+    "categoria": "68aa2d4a0d86e565c2af20b1",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988965/Camiseta_Sport_Run_qfuyar.jpg"
   },
   {
-    "id": "p-rop-02",
     "nombre": "Jeans Classic Fit",
     "descripcion": "Denim premium, corte cómodo",
     "precio": 49.99,
-    "id_categoria": "68aa2d4a0d86e565c2af20b1",
-    "categoria": "Ropa y Accesorios",
+    "categoria": "68aa2d4a0d86e565c2af20b1",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988966/Jeans_Classic_Fit_wctnlo.jpg"
   },
   {
-    "id": "p-rop-03",
     "nombre": "Sudadera Hoodie Urban",
     "descripcion": "Algodón peinado, capucha ajustable",
     "precio": 39.99,
-    "id_categoria": "68aa2d4a0d86e565c2af20b1",
-    "categoria": "Ropa y Accesorios",
+    "categoria": "68aa2d4a0d86e565c2af20b1",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988967/Sudadera_Hoodie_Urban_tydr78.jpg"
   },
   {
-    "id": "p-rop-04",
     "nombre": "Reloj Casual",
     "descripcion": "Correa de cuero, resistente al agua",
     "precio": 89.99,
-    "id_categoria": "68aa2d4a0d86e565c2af20b1",
-    "categoria": "Ropa y Accesorios",
+    "categoria": "68aa2d4a0d86e565c2af20b1",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988968/Reloj_Casual_fdjbn0.jpg"
   },
   {
-    "id": "p-rop-05",
     "nombre": "Gorra Trucker",
     "descripcion": "Visera curva, diseño clásico",
     "precio": 14.99,
-    "id_categoria": "68aa2d4a0d86e565c2af20b1",
-    "categoria": "Ropa y Accesorios",
+    "categoria": "68aa2d4a0d86e565c2af20b1",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988968/Gorra_Trucker_impoks.jpg"
   },
   {
-    "id": "p-rop-06",
     "nombre": "Bolso Bandolera",
     "descripcion": "Compartimentos múltiples y cierre seguro",
     "precio": 59.99,
-    "id_categoria": "68aa2d4a0d86e565c2af20b1",
-    "categoria": "Ropa y Accesorios",
+    "categoria": "68aa2d4a0d86e565c2af20b1",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988969/Bolso_Bandolera_svdxr9.jpg"
   },
   {
-    "id": "p-rop-07",
     "nombre": "Calcetines técnicos (3-pack)",
     "descripcion": "Absorción y soporte plantar",
     "precio": 12.99,
-    "id_categoria": "68aa2d4a0d86e565c2af20b1",
-    "categoria": "Ropa y Accesorios",
+    "categoria": "68aa2d4a0d86e565c2af20b1",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988970/Calcetines_t%C3%A9cnicos_3-pack_xvkvln.jpg"
   },
   {
-    "id": "p-rop-08",
     "nombre": "Chaqueta Impermeable",
     "descripcion": "Corte slim, respirable",
     "precio": 99.99,
-    "id_categoria": "68aa2d4a0d86e565c2af20b1",
-    "categoria": "Ropa y Accesorios",
+    "categoria": "68aa2d4a0d86e565c2af20b1",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988971/Chaqueta_Impermeable_jpdf3d.jpg"
   },
   {
-    "id": "p-rop-09",
     "nombre": "Cinturón de cuero",
     "descripcion": "Hebilla metálica y acabado premium",
     "precio": 29.99,
-    "id_categoria": "68aa2d4a0d86e565c2af20b1",
-    "categoria": "Ropa y Accesorios",
+    "categoria": "68aa2d4a0d86e565c2af20b1",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988972/Cintur%C3%B3n_de_cuero_illomp.jpg"
   },
   {
-    "id": "p-rop-10",
     "nombre": "Bolsa de gimnasio",
     "descripcion": "Compartimento para zapatos y ropa húmeda",
     "precio": 44.99,
-    "id_categoria": "68aa2d4a0d86e565c2af20b1",
-    "categoria": "Ropa y Accesorios",
+    "categoria": "68aa2d4a0d86e565c2af20b1",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988973/Bolsa_de_gimnasio_havmfw.jpg"
   },
   {
-    "id": "p-dep-01",
     "nombre": "Zapatillas Running Pro",
     "descripcion": "Amortiguación reactiva, suela antideslizante",
     "precio": 129.99,
-    "id_categoria": "68aa2d520d86e565c2af20b2",
-    "categoria": "Deportes",
+    "categoria": "68aa2d520d86e565c2af20b2", 
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988974/Zapatillas_Running_Pro_y31a5n.jpg"
   },
   {
-    "id": "p-dep-02",
     "nombre": "Mancuernas Ajustables",
     "descripcion": "5-25kg, diseño compacto",
     "precio": 199.99,
-    "id_categoria": "68aa2d520d86e565c2af20b2",
-    "categoria": "Deportes",
+    "categoria": "68aa2d520d86e565c2af20b2",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988974/Mancuernas_Ajustables_tdmmoz.jpg"
   },
   {
-    "id": "p-dep-03",
     "nombre": "Esterilla Yoga Premium",
     "descripcion": "Antideslizante y extra acolchada",
     "precio": 34.99,
-    "id_categoria": "68aa2d520d86e565c2af20b2",
-    "categoria": "Deportes",
+    "categoria": "68aa2d520d86e565c2af20b2",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988975/Esterilla_Yoga_Premium_y5qlh4.jpg"
   },
   {
-    "id": "p-dep-04",
     "nombre": "Bicicleta Indoor",
     "descripcion": "Resistencia magnética, pantalla LCD",
     "precio": 499.99,
-    "id_categoria": "68aa2d520d86e565c2af20b2",
-    "categoria": "Deportes",
+    "categoria": "68aa2d520d86e565c2af20b2",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988976/Bicicleta_Indoor_hekgyz.jpg"
   },
   {
-    "id": "p-dep-05",
     "nombre": "Balón Fútbol Oficial",
     "descripcion": "Tamaño 5, cosido a máquina",
     "precio": 29.99,
-    "id_categoria": "68aa2d520d86e565c2af20b2",
-    "categoria": "Deportes",
+    "categoria": "68aa2d520d86e565c2af20b2",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988977/Bal%C3%B3n_F%C3%BAtbol_Oficial_vdcxms.jpg"
   },
   {
-    "id": "p-dep-06",
     "nombre": "Guantes de Boxeo",
     "descripcion": "Material sintético resistente, 14oz",
     "precio": 49.99,
-    "id_categoria": "68aa2d520d86e565c2af20b2",
-    "categoria": "Deportes",
+    "categoria": "68aa2d520d86e565c2af20b2",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988978/Guantes_de_Boxeo_dkpz0s.jpg"
   },
   {
-    "id": "p-dep-07",
     "nombre": "Set Bandas Elásticas",
     "descripcion": "5 niveles de resistencia para entrenamiento",
     "precio": 19.99,
-    "id_categoria": "68aa2d520d86e565c2af20b2",
-    "categoria": "Deportes",
+    "categoria": "68aa2d520d86e565c2af20b2",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988979/Set_Bandas_El%C3%A1sticas_hidwsa.jpg"
   },
   {
-    "id": "p-dep-08",
     "nombre": "Cuerda de Saltar Speed",
     "descripcion": "Ajustable y con rodamientos",
     "precio": 12.99,
-    "id_categoria": "68aa2d520d86e565c2af20b2",
-    "categoria": "Deportes",
+    "categoria": "68aa2d520d86e565c2af20b2",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988980/Cuerda_de_Saltar_Speed_b2slme.jpg"
   },
   {
-    "id": "p-dep-09",
     "nombre": "Monitor de Actividad",
     "descripcion": "Pasos, sueño y calorías",
     "precio": 59.99,
-    "id_categoria": "68aa2d520d86e565c2af20b2",
-    "categoria": "Deportes",
+    "categoria": "68aa2d520d86e565c2af20b2",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988981/Monitor_de_Actividad_fcz4ni.jpg"
   },
   {
-    "id": "p-dep-10",
     "nombre": "Botella Térmica 1L",
     "descripcion": "Acero inoxidable, mantiene temperatura",
     "precio": 24.99,
-    "id_categoria": "68aa2d520d86e565c2af20b2",
-    "categoria": "Deportes",
+    "categoria": "68aa2d520d86e565c2af20b2",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988982/Botella_T%C3%A9rmica_1L_lq5z4l.jpg"
   }
 ]
