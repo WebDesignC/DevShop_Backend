@@ -1,9 +1,12 @@
-const express = require('express')
+const express = require('express');
 const multer = require('multer');
-const route = express.Router()
+const route = express.Router();
 const streamifier = require('streamifier');
 const cloudinary = require('cloudinary').v2;
-//const producto =require('../models/Producto')
+const Producto = require('../models/Producto');
+const productoController = require('../controllers/ProductoController');
+const validate = require('../middleware/validate');
+const productoSchema = require('../validators/productoValidator');
 
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage });
@@ -30,46 +33,16 @@ const uploadFromBuffer = (buffer) => {
   });
 };
 
-route.get('/productos',(req, res)=>{
+route.get('/', productoController.list);
 
-})
+route.get('/:id', productoController.getById);
 
-route.post('/productos', upload.single('imagen'), async (req, res) => {
-  try {
-    if (!req.file) {
-      return res.status(400).json({ message: 'No se encontró ninguna imagen.' });
-    }
-    // Sube la imagen a Cloudinary
-    const uploadResult = await uploadFromBuffer(req.file.buffer);
-    const { nombre, descripcion, precio, id_categoria, categoria } = req.body;
-    const imageUrl = uploadResult.secure_url;
+route.get('/categoria/:categoriaId', productoController.getByCategoria);
 
-    // Crea un nuevo producto con la URL de la imagen
-    const newProduct = new Producto({
-      nombre,
-      descripcion,
-      precio,
-      id_categoria,
-      categoria,
-      imagen: imageUrl, // Guarda la URL de la imagen
-      public_id: uploadResult.public_id // Guarda el public_id
-    });
+route.post('/', validate(productoSchema), productoController.create);
 
-    await newProduct.save();
-    res.status(201).json(newProduct);
+route.put('/:id', validate(productoSchema), productoController.update);
 
-  } catch (error) {
-    console.error('Error al crear el producto:', error);
-    res.status(500).json({ message: 'Error interno del servidor.' });
-  }
-});
-
-route.put('/productos/:id',(req, res)=>{
-
-})
-
-route.delete('/productos/:id',(req, res)=>{
-
-})
+route.delete('/:id', productoController.remove);
 
 module.exports = route;
