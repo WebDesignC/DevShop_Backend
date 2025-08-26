@@ -5,12 +5,12 @@ const validate = require('../middleware/validate');
 const categoriaSchema = require('../validators/categoriaValidator')
 // const categoria =require('../models/Categoria')
 
-route.get('/categoria',categoriaController.list);
 
-route.get('/categoria/:id',categoriaController.getById);
+//Rutas de categorias corregidas despues de testeo con postman
+route.get('/', categoriaController.list);
+route.get('/:id', categoriaController.getById);
+route.post('/', validate(categoriaSchema), categoriaController.create);
+route.put('/:id', validate(categoriaSchema), categoriaController.update);
+route.delete('/:id', categoriaController.remove);
 
-route.post('/categoria',validate(categoriaSchema),categoriaController.create);
-
-route.put('/categoria/:id', validate(categoriaSchema), categoriaController.update);
-
-route.delete('/categoria/:id',categoriaController.remove);
+module.exports = route;
