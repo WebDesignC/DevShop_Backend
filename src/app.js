@@ -5,9 +5,9 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 
-const categoriasRoutes = require('./routes/categorias'); // ruta que vamos a crear
+const categoriasRoutes = require('./routes/CategoriaRoute'); // ruta corregida
 
-const errorHandler = require('./middleware/errorHandler'); // crea archivo simple (opcional)
+// const errorHandler = require('./middleware/errorHandler'); // comentado porque no existe
 
 const app = express();
 app.use(cors());
