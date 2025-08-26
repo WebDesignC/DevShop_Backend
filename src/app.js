@@ -5,7 +5,8 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 
-const categoriasRoutes = require('./routes/CategoriaRoute'); // ruta corregida
+const categoriasRoutes = require('./routes/CategoriaRoute');
+const productoRoutes = require('./routes/ProductoRoute');
 
 // const errorHandler = require('./middleware/errorHandler'); // comentado porque no existe
 
@@ -15,6 +16,7 @@ app.use(bodyParser.json());
 
 // Rutas
 app.use('/api/categorias', categoriasRoutes);
+app.use('/api/productos', productoRoutes);
 
 // Error handler fallback (simple)
 app.use((err, req, res, next) => {
