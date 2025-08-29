@@ -31,7 +31,7 @@ async function authBasic(req, res, next) {
 // Crear una cuenta nueva
 router.post("/register", async (req, res) => {
     try {
-        const { email, password } = req.body;
+        const { email, password, name, image } = req.body;
         
         const userExist = await User.findOne({ email });
         if (userExist) return res.status(400).json({ msg: "Usuario ya existe" });
@@ -39,7 +39,7 @@ router.post("/register", async (req, res) => {
         const hashedPass = await bcrypt.hash(password, 10);
         
         // Guardar nuevo usuario
-        const newUser = new User({ email, password: hashedPass });
+        const newUser = new User({ email, password: hashedPass, name , image });
         await newUser.save();
 
         res.status(200).json({ msg: "¡Usuario creado!" });
