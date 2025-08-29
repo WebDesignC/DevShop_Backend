@@ -9,9 +9,16 @@ async function run() {
     await mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
     console.log('Mongo conectado para seed');
 
-    await Categoria.deleteMany();
-    const created = await Categoria.insertMany(categorias);
-    console.log('Categorias insertadas:', created.length);
+    // Verificar si ya existen categorías
+    const existingCategories = await Categoria.countDocuments();
+    
+    if (existingCategories === 0) {
+      // Solo insertar si no hay categorías
+      const created = await Categoria.insertMany(categorias);
+      console.log('Categorias insertadas:', created.length);
+    } else {
+      console.log(`Ya existen ${existingCategories} categorías. Saltando inserción.`);
+    }
 
     await mongoose.disconnect();
     console.log('Seed finalizado y desconectado');

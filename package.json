@@ -2,12 +2,13 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js",
-    "start": "node app.js",
-    "seed": "node seed/seedData.js"
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js",
+    "seed": "node src/seed/seedData.js",
+    "seed:reset": "node src/seed/resetData.js"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +20,7 @@
     "express": "^5.1.0",
     "joi": "^18.0.1",
     "mongodb": "^6.18.0",
-    "mongoose": "^8.17.2",
+    "mongoose": "^8.18.0",
     "multer": "^2.0.2",
     "streamifier": "^0.1.1"
   },
