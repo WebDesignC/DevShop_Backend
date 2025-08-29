@@ -143,140 +143,140 @@
     "nombre": "Camiseta Sport Run",
     "descripcion": "Microfibra transpirable, corte atlético",
     "precio": 24.99,
-    "categoria": "",
+    "categoria": "68ae595ea54d6225f276255e",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988965/Camiseta_Sport_Run_qfuyar.jpg"
   },
   {
     "nombre": "Jeans Classic Fit",
     "descripcion": "Denim premium, corte cómodo",
     "precio": 49.99,
-    "categoria": "",
+    "categoria": "68ae595ea54d6225f276255e",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988966/Jeans_Classic_Fit_wctnlo.jpg"
   },
   {
     "nombre": "Sudadera Hoodie Urban",
     "descripcion": "Algodón peinado, capucha ajustable",
     "precio": 39.99,
-    "categoria": "",
+    "categoria": "68ae595ea54d6225f276255e",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988967/Sudadera_Hoodie_Urban_tydr78.jpg"
   },
   {
     "nombre": "Reloj Casual",
     "descripcion": "Correa de cuero, resistente al agua",
     "precio": 89.99,
-    "categoria": "",
+    "categoria": "68ae595ea54d6225f276255e",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988968/Reloj_Casual_fdjbn0.jpg"
   },
   {
     "nombre": "Gorra Trucker",
     "descripcion": "Visera curva, diseño clásico",
     "precio": 14.99,
-    "categoria": "",
+    "categoria": "68ae595ea54d6225f276255e",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988968/Gorra_Trucker_impoks.jpg"
   },
   {
     "nombre": "Bolso Bandolera",
     "descripcion": "Compartimentos múltiples y cierre seguro",
     "precio": 59.99,
-    "categoria": "",
+    "categoria": "68ae595ea54d6225f276255e",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988969/Bolso_Bandolera_svdxr9.jpg"
   },
   {
     "nombre": "Calcetines técnicos (3-pack)",
     "descripcion": "Absorción y soporte plantar",
     "precio": 12.99,
-    "categoria": "",
+    "categoria": "68ae595ea54d6225f276255e",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988970/Calcetines_t%C3%A9cnicos_3-pack_xvkvln.jpg"
   },
   {
     "nombre": "Chaqueta Impermeable",
     "descripcion": "Corte slim, respirable",
     "precio": 99.99,
-    "categoria": "",
+    "categoria": "68ae595ea54d6225f276255e",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988971/Chaqueta_Impermeable_jpdf3d.jpg"
   },
   {
     "nombre": "Cinturón de cuero",
     "descripcion": "Hebilla metálica y acabado premium",
     "precio": 29.99,
-    "categoria": "",
+    "categoria": "68ae595ea54d6225f276255e",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988972/Cintur%C3%B3n_de_cuero_illomp.jpg"
   },
   {
     "nombre": "Bolsa de gimnasio",
     "descripcion": "Compartimento para zapatos y ropa húmeda",
     "precio": 44.99,
-    "categoria": "",
+    "categoria": "68ae595ea54d6225f276255e",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988973/Bolsa_de_gimnasio_havmfw.jpg"
   },
   {
     "nombre": "Zapatillas Running Pro",
     "descripcion": "Amortiguación reactiva, suela antideslizante",
     "precio": 129.99,
-    "categoria": "", 
+    "categoria": "68ae595ea54d6225f276255f", 
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988974/Zapatillas_Running_Pro_y31a5n.jpg"
   },
   {
     "nombre": "Mancuernas Ajustables",
     "descripcion": "5-25kg, diseño compacto",
     "precio": 199.99,
-    "categoria": "",
+    "categoria": "68ae595ea54d6225f276255f",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988974/Mancuernas_Ajustables_tdmmoz.jpg"
   },
   {
     "nombre": "Esterilla Yoga Premium",
     "descripcion": "Antideslizante y extra acolchada",
     "precio": 34.99,
-    "categoria": "",
+    "categoria": "68ae595ea54d6225f276255f",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988975/Esterilla_Yoga_Premium_y5qlh4.jpg"
   },
   {
     "nombre": "Bicicleta Indoor",
     "descripcion": "Resistencia magnética, pantalla LCD",
     "precio": 499.99,
-    "categoria": "",
+    "categoria": "68ae595ea54d6225f276255f",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988976/Bicicleta_Indoor_hekgyz.jpg"
   },
   {
     "nombre": "Balón Fútbol Oficial",
     "descripcion": "Tamaño 5, cosido a máquina",
     "precio": 29.99,
-    "categoria": "",
+    "categoria": "68ae595ea54d6225f276255f",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988977/Bal%C3%B3n_F%C3%BAtbol_Oficial_vdcxms.jpg"
   },
   {
     "nombre": "Guantes de Boxeo",
     "descripcion": "Material sintético resistente, 14oz",
     "precio": 49.99,
-    "categoria": "",
+    "categoria": "68ae595ea54d6225f276255f",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988978/Guantes_de_Boxeo_dkpz0s.jpg"
   },
   {
     "nombre": "Set Bandas Elásticas",
     "descripcion": "5 niveles de resistencia para entrenamiento",
     "precio": 19.99,
-    "categoria": "",
+    "categoria": "68ae595ea54d6225f276255f",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988979/Set_Bandas_El%C3%A1sticas_hidwsa.jpg"
   },
   {
     "nombre": "Cuerda de Saltar Speed",
     "descripcion": "Ajustable y con rodamientos",
     "precio": 12.99,
-    "categoria": "",
+    "categoria": "68ae595ea54d6225f276255f",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988980/Cuerda_de_Saltar_Speed_b2slme.jpg"
   },
   {
     "nombre": "Monitor de Actividad",
     "descripcion": "Pasos, sueño y calorías",
     "precio": 59.99,
-    "categoria": "",
+    "categoria": "68ae595ea54d6225f276255f",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988981/Monitor_de_Actividad_fcz4ni.jpg"
   },
   {
     "nombre": "Botella Térmica 1L",
     "descripcion": "Acero inoxidable, mantiene temperatura",
     "precio": 24.99,
-    "categoria": "",
+    "categoria": "68ae595ea54d6225f276255f",
     "imagen": "https://res.cloudinary.com/dz3dewtjs/image/upload/v1755988982/Botella_T%C3%A9rmica_1L_lq5z4l.jpg"
   }
 ]
