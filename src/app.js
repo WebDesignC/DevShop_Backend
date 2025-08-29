@@ -17,6 +17,7 @@ app.use(bodyParser.json());
 // Rutas
 app.use('/api/categorias', categoriasRoutes);
 app.use('/api/productos', productoRoutes);
+app.use("/auth", require("./routes/authRoute"));
 
 // Error handler fallback (simple)
 app.use((err, req, res, next) => {
