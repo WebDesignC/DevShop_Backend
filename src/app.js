@@ -1,14 +1,13 @@
-// app.js
+// src/app.js
 require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const bodyParser = require('body-parser');
+const serverless = require('serverless-http');
 
 const categoriasRoutes = require('./routes/CategoriaRoute');
 const productoRoutes = require('./routes/ProductoRoute');
-
-// const errorHandler = require('./middleware/errorHandler'); // comentado porque no existe
 
 const app = express();
 app.use(cors());
@@ -24,16 +23,19 @@ app.use((err, req, res, next) => {
   res.status(err.status || 500).json({ error: err.message || 'Server error' });
 });
 
-// Conectarse a Mongo y arrancar servidor
-const PORT = process.env.PORT || 5000;
-mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => {
-    console.log('MongoDB conectado');
-    app.listen(PORT, () => console.log(`Server corriendo en puerto ${PORT}`));
-  })
-  .catch(err => {
-    console.error('Error conectando a MongoDB:', err.message);
-    process.exit(1);
-  });
+// Conectarse a Mongo y arrancar servidor solo en local
+if (process.env.NODE_ENV !== "production") {
+  const PORT = process.env.PORT || 5000;
+  mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+    .then(() => {
+      console.log('MongoDB conectado');
+      app.listen(PORT, () => console.log(`Server corriendo en puerto ${PORT}`));
+    })
+    .catch(err => {
+      console.error('Error conectando a MongoDB:', err.message);
+      process.exit(1);
+    });
+}
 
-module.exports = app;
+// Exportar para Vercel (serverless)
+module.exports = serverless(app);
