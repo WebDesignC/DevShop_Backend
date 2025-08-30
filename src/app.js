@@ -17,25 +17,24 @@ app.use(bodyParser.json());
 app.use('/api/categorias', categoriasRoutes);
 app.use('/api/productos', productoRoutes);
 
-// Error handler fallback (simple)
+// Error handler
 app.use((err, req, res, next) => {
   console.error(err);
   res.status(err.status || 500).json({ error: err.message || 'Server error' });
 });
 
-// Conectarse a Mongo y arrancar servidor solo en local
-if (process.env.NODE_ENV !== "production") {
-  const PORT = process.env.PORT || 5000;
-  mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
-    .then(() => {
-      console.log('MongoDB conectado');
-      app.listen(PORT, () => console.log(`Server corriendo en puerto ${PORT}`));
-    })
-    .catch(err => {
-      console.error('Error conectando a MongoDB:', err.message);
-      process.exit(1);
-    });
+// Conexión a Mongo para Vercel
+let isConnected = false;
+async function connectToMongo() {
+  if (isConnected) return;
+  await mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
+  isConnected = true;
+  console.log("MongoDB conectado (Vercel)");
 }
 
-// Exportar para Vercel (serverless)
-module.exports = serverless(app);
+// Export para serverless
+module.exports = async (req, res) => {
+  await connectToMongo();
+  const handler = serverless(app);
+  return handler(req, res);
+};
