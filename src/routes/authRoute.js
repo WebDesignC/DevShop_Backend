@@ -18,11 +18,11 @@ async function authBasic(req, res, next) {
     
     // Buscar usuario en la base de datos
     const user = await User.findOne({ email });
-    if (!user) return res.status(401).json({ msg: "Usuario no existe" });
+    if (!user) return res.status(401).json({ msg: "Licencias no validas" });
 
     // Verificar contraseña
     const isMatch = await bcrypt.compare(password, user.password);
-    if (!isMatch) return res.status(401).json({ msg: "Contraseña incorrecta" });
+    if (!isMatch) return res.status(401).json({ msg: "Licencias no validas" });
 
     req.user = { id: user._id, email: user.email };
     next();

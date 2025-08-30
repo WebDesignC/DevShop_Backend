@@ -7,6 +7,7 @@ const bodyParser = require('body-parser');
 
 const categoriasRoutes = require('./routes/CategoriaRoute');
 const productoRoutes = require('./routes/ProductoRoute');
+const authRoute = require("./routes/authRoute");
 
 // const errorHandler = require('./middleware/errorHandler'); // comentado porque no existe
 
@@ -17,7 +18,7 @@ app.use(bodyParser.json());
 // Rutas
 app.use('/api/categorias', categoriasRoutes);
 app.use('/api/productos', productoRoutes);
-app.use("/auth", require("./routes/authRoute"));
+app.use("/api/auth", authRoute);
 
 // Error handler fallback (simple)
 app.use((err, req, res, next) => {
