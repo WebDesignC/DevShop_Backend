@@ -56,3 +56,4 @@ Thumbs.db
 .cache/
 .tern-port
 .eslintcache
+.vercel
