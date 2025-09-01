@@ -8,6 +8,7 @@ const authRoute = require("./routes/authRoute");
 
 dotenv.config();
 
+app.use(cors());
 const app = express();
 app.use(express.json());
 app.use('/api/categorias', categoriasRoutes);
