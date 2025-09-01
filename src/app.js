@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 
 const categoriasRoutes = require('./routes/CategoriaRoute');
 const productoRoutes = require('./routes/ProductoRoute');
+const authRoute = require("./routes/authRoute");
 
 dotenv.config();
 
@@ -11,6 +12,7 @@ const app = express();
 app.use(express.json());
 app.use('/api/categorias', categoriasRoutes);
 app.use('/api/productos', productoRoutes);
+app.use("/api/auth", authRoute);
 
 app.get("/", (req, res) => {
   res.send("API funcionando 🚀");
