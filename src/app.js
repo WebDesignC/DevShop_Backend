@@ -1,24 +1,28 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
+import cors from "cors";
 
-const categoriasRoutes = require('./routes/CategoriaRoute');
-const productoRoutes = require('./routes/ProductoRoute');
-const authRoute = require("./routes/authRoute");
+import categoriasRoutes from "./routes/CategoriaRoute.js";
+import productoRoutes from "./routes/ProductoRoute.js";
+import authRoute from "./routes/authRoute.js";
 
 dotenv.config();
 
-app.use(cors());
 const app = express();
+
+app.use(cors());
 app.use(express.json());
-app.use('/api/categorias', categoriasRoutes);
-app.use('/api/productos', productoRoutes);
+
+app.use("/api/categorias", categoriasRoutes);
+app.use("/api/productos", productoRoutes);
 app.use("/api/auth", authRoute);
 
 app.get("/", (req, res) => {
   res.send("API funcionando 🚀");
 });
 
+// Conexión a MongoDB
 mongoose
   .connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
