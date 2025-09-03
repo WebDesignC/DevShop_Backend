@@ -1,12 +1,12 @@
-const express = require("express");
-const mongoose = require("mongoose");
-const dotenv = require("dotenv");
-const cors = require("cors");
+import express from "express";
+import mongoose from "mongoose";
+import dotenv from "dotenv";
+import cors from "cors";
 
-const categoriasRoutes = require("./routes/CategoriaRoute");
-const productoRoutes = require("./routes/ProductoRoute");
-const authRoutes = require("./routes/authRoute");
-const usuarioRoutes = require("./routes/UsuarioRoute");
+import categoriasRoutes from "./routes/CategoriaRoute.js";
+import productoRoutes from "./routes/ProductoRoute.js";
+import authRoute from "./routes/authRoute.js";
+import usuarioRoutes from "./routes/UsuarioRoute.js"; 
 
 dotenv.config();
 
@@ -17,20 +17,19 @@ app.use(express.json());
 
 app.use("/api/categorias", categoriasRoutes);
 app.use("/api/productos", productoRoutes);
-app.use("/api/auth", authRoutes);
-app.use("/api/usuarios", usuarioRoutes);
+app.use("/api/auth", authRoute);
+app.use("/api/usuarios", usuarioRoutes); 
 
 app.get("/", (req, res) => {
   res.send("API funcionando 🚀");
 });
 
-// Conexión a MongoDB
-// Conexión a MongoDB
 mongoose
-  .connect(process.env.MONGO_URI)
+  .connect(process.env.MONGO_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
   .then(() => console.log("MongoDB conectado"))
-  .catch((err) =>
-    console.error("Error conectando a MongoDB:", err.message)
-  );
+  .catch((err) => console.error("Error conectando a MongoDB:", err.message));
 
-module.exports = app;
+export default app;
