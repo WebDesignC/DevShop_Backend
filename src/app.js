@@ -6,6 +6,7 @@ import cors from "cors";
 import categoriasRoutes from "./routes/CategoriaRoute.js";
 import productoRoutes from "./routes/ProductoRoute.js";
 import authRoute from "./routes/authRoute.js";
+import usuarioRoutes from "./routes/UsuarioRoute.js"; 
 
 dotenv.config();
 
@@ -17,12 +18,12 @@ app.use(express.json());
 app.use("/api/categorias", categoriasRoutes);
 app.use("/api/productos", productoRoutes);
 app.use("/api/auth", authRoute);
+app.use("/api/usuarios", usuarioRoutes); 
 
 app.get("/", (req, res) => {
   res.send("API funcionando 🚀");
 });
 
-// Conexión a MongoDB
 mongoose
   .connect(process.env.MONGO_URI, {
     useNewUrlParser: true,

@@ -1,16 +1,12 @@
-const express = require('express')
-const route = express.Router()
-// const usuario =require('../models/Usuario')
+const express = require('express');
+const router = express.Router();
+const usuarioController = require('../controllers/UsuarioController');
+const validate = require('../middleware/validate');
+const usuarioSchema = require('../validators/usuarioValidator');
 
-route.get('/usuario',()=>{
+router.get("/", usuarioController.list);
+router.get("/:id", usuarioController.getById);
+router.put("/:id", usuarioController.update);
+router.delete("/:id", usuarioController.remove);
 
-})
-route.post('/usuario/:id',()=>{
-
-})
-route.put('/usuario/:id',()=>{
-
-})
-route.delete('/usuario/:id',()=>{
-
-})
+module.exports = router;
